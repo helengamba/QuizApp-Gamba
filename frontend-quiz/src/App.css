@@ -1,0 +1,59 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: #7c4dff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background: white;
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.q-box h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+.opt {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background: #f3f0ff;
+  border: 2px solid #e0d7ff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.opt.sel {
+  background: #7c4dff;
+  color: white;
+  border-color: #7c4dff;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #7c4dff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bar {
+  height: 8px;
+  background: #eee;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.bar div {
+  height: 100%;
+  background: #7c4dff;
+}
